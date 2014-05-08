@@ -1,7 +1,7 @@
 EmberQuartzAdmin.TriggersRoute = Ember.Route.extend({
 	actions:{
 		resume: function(trigger){
-			$.post(EmberQuartzAdmin.serviceUrl + "/api/triggers/"+ trigger.get("Name")+ "/resume").done(function(){
+			$.post(EmberQuartzAdmin.serviceUrl + "/api/triggers/"+ trigger.get("Id")+ "/resume").done(function(){
 				alert('Trigger was resumed');
 			});
 
