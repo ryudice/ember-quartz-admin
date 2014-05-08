@@ -1,0 +1,9 @@
+<h1>Triggers</h1>
+
+<ul>
+ {{#each model}}
+ <li>{{this.Name}} <a {{ action 'resume' this }}>Resume Job</a></li>
+  {{/each}}
+</ul>
+
+{{outlet}}

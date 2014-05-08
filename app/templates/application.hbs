@@ -1,0 +1,28 @@
+<div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Your App</a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li>{{# link-to 'jobs'}}Jobs{{/link-to}} </li>
+                <li>{{# link-to 'triggers'}}Triggers{{/link-to}} </li>
+            <ul>
+        </div>
+    </nav>
+    <div class="container" id="main">
+        <div class="row">
+            <div>
+                <div class="col-md-12">
+                    {{outlet}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

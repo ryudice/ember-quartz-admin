@@ -1,0 +1,1 @@
+EmberQuartzAdmin.ApplicationAdapter = DS.FixtureAdapter;

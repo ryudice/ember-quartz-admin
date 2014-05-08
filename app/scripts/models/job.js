@@ -1,0 +1,1 @@
+EmberQuartzAdmin.Job = Ember.Object.extend({})

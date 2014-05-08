@@ -1,0 +1,1 @@
+EmberQuartzAdmin.Trigger = Ember.Object.extend({})
